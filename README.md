@@ -32,7 +32,7 @@ To run the analysis using the provided sample data from Google Cloud Storage, ex
 By default, the output will be saved in the `output/results.jsonl.gz` file.
 
 You can provide custom input and output files using the `--input` and `--output` command-line options:
-```python transaction_analysis.py --input path/to/input.csv --output path/to/output.jsonl.gz```
+```python transaction_pipeline.py --input path/to/input.csv --output path/to/output.jsonl.gz```
 
 
 ## Running the Tests
