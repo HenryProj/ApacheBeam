@@ -13,7 +13,7 @@ This project processes a dataset of transactions using Apache Beam in Python. Th
 ```git clone https://github.com/HenryProj/ApacheBeam.git```
 
 2. Change to the project directory:
-```cd transaction_pipeline```
+```cd ApacheBeam```
 
 3. (Optional) Create a virtual environment to isolate the project dependencies:
 ```python -m venv venv```
