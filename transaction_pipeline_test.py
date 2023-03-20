@@ -10,10 +10,10 @@ class TransactionAnalysisTest(unittest.TestCase):
     def test_transactions_transform(self):
         with TestPipeline() as p:
             test_data = [
-                "2011-01-01 00:00:00 UTC\twallet1\twallet2\t25.00",
-                "2009-12-31 23:59:59 UTC\twallet1\twallet2\t30.00",
-                "2011-01-01 00:00:00 UTC\twallet1\twallet2\t40.00",
-                "2011-01-01 00:00:00 UTC\twallet1\twallet2\t10.00",
+                "2011-01-01 00:00:00 UTC,wallet1,wallet2,25.00",
+                "2009-12-31 23:59:59 UTC,wallet1,wallet2,30.00",
+                "2011-01-01 00:00:00 UTC,wallet1,wallet2,40.00",
+                "2011-01-01 00:00:00 UTC,wallet1,wallet2,10.00",
             ]
             
             expected_output = [
