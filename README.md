@@ -17,7 +17,8 @@ This project processes a dataset of transactions using Apache Beam in Python. Th
 
 3. (Optional) Create a virtual environment to isolate the project dependencies:
 ```python -m venv venv```
-```source venv/bin/activate```# On Windows, use venv\Scripts\activate
+```source venv/bin/activate```
+# On Windows, use venv\Scripts\activate
 
 4. Install the required packages:
 ```pip install -r requirements.txt```
